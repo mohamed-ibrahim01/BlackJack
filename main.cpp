@@ -55,6 +55,16 @@ int main() {
     return 0;
 }
 
+/**
+ * overload the << operator so we can  send Card object to the standered output directly
+ * and we can define how to display it
+ *
+ * this function is a declared as friend function in Card class
+ * so it can uses its private member variables
+ *
+ * it contains the suits and ranks shape to be displayed
+ */
+
 ostream& operator<<(ostream& os, const Card& aCard)
 {
     string ranks[] = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"};
@@ -72,6 +82,16 @@ ostream& operator<<(ostream& os, const Card& aCard)
     return os;
 }
 
+
+/**
+ * overload the << operator so we can send GenericPlayer object (or any derived class)
+ * to the standered output directly
+ *
+ * this function is a declared as friend function in Card class
+ * so it can uses its private member variables
+ *
+ * it contains the suits and ranks shape to be displayed
+ */
 ostream& operator<<(ostream& os, const GenericPlayer& aGenericPlayer)
 {
     os << aGenericPlayer.m_Name << ":\t";
