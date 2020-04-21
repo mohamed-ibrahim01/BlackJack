@@ -1,0 +1,6 @@
+The Blackjack casino game application with c++
+-----------------------------------------------
+
+To run it from the terminal change your current directory to the this directory then: ./blackjack
+
+To open the project in codeblocks just open codeblocks and choose open project.

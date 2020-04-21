@@ -1,0 +1,95 @@
+# depslib dependency file v1.0
+1580502579 source:/home/x/Workspace/upwork_job/Blackjack/main.cpp
+	<iostream>
+	<vector>
+	"Card.h"
+	"Deck.h"
+	"GenericPlayer.h"
+	"Game.h"
+
+1580502579 /home/x/Workspace/upwork_job/Blackjack/Card.h
+	<iostream>
+
+1580502579 /home/x/Workspace/upwork_job/Blackjack/Deck.h
+	"Hand.h"
+	"GenericPlayer.h"
+
+1580502579 /home/x/Workspace/upwork_job/Blackjack/Hand.h
+	<vector>
+	"Card.h"
+
+1580502579 /home/x/Workspace/upwork_job/Blackjack/GenericPlayer.h
+	<iostream>
+	"Hand.h"
+
+1580502579 /home/x/Workspace/upwork_job/Blackjack/Game.h
+	<vector>
+	<iostream>
+	"Deck.h"
+	"House.h"
+	"Player.h"
+
+1580502579 /home/x/Workspace/upwork_job/Blackjack/House.h
+	"GenericPlayer.h"
+
+1580502579 /home/x/Workspace/upwork_job/Blackjack/Player.h
+	"GenericPlayer.h"
+
+1587477436 source:/home/x/Workspace/blackjack/main.cpp
+	<iostream>
+	<vector>
+	"Card.h"
+	"Deck.h"
+	"GenericPlayer.h"
+	"Game.h"
+
+1580502579 /home/x/Workspace/blackjack/Card.h
+	<iostream>
+
+1580502579 /home/x/Workspace/blackjack/Deck.h
+	"Hand.h"
+	"GenericPlayer.h"
+
+1580502579 /home/x/Workspace/blackjack/Hand.h
+	<vector>
+	"Card.h"
+
+1580502579 /home/x/Workspace/blackjack/GenericPlayer.h
+	<iostream>
+	"Hand.h"
+
+1580502579 /home/x/Workspace/blackjack/Game.h
+	<vector>
+	<iostream>
+	"Deck.h"
+	"House.h"
+	"Player.h"
+
+1580502579 /home/x/Workspace/blackjack/House.h
+	"GenericPlayer.h"
+
+1580502579 /home/x/Workspace/blackjack/Player.h
+	"GenericPlayer.h"
+
+1580502579 source:/home/x/Workspace/blackjack/Card.cpp
+	"Card.h"
+
+1580502579 source:/home/x/Workspace/blackjack/Deck.cpp
+	"Deck.h"
+	<algorithm>
+
+1587466152 source:/home/x/Workspace/blackjack/Game.cpp
+	"Game.h"
+
+1580502579 source:/home/x/Workspace/blackjack/GenericPlayer.cpp
+	"GenericPlayer.h"
+
+1580502579 source:/home/x/Workspace/blackjack/Hand.cpp
+	"Hand.h"
+
+1580502579 source:/home/x/Workspace/blackjack/House.cpp
+	"House.h"
+
+1580502579 source:/home/x/Workspace/blackjack/Player.cpp
+	"Player.h"
+
