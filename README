@@ -4,3 +4,25 @@ The Blackjack casino game application with c++
 To run it from the terminal change your current directory to the this directory then: ./blackjack
 
 To open the project in codeblocks just open codeblocks and choose open project.
+
+
+Steps of execution :
+
+Start the round
+deal two Cards to each player
+deal two cards to the house
+flip the house's first card
+display all players' cards and their total
+display the house's hand (one card is hidden)
+for all players
+        while his hand's total didn't exceed 21
+                offer players additional cards
+flip the house's first card
+display the house hand
+while its hand's total didn't exceed 21
+        offer additional cards to house
+declare the winners
+clear all hands 
+End the round
+
+//Article about it available at will be available soon
